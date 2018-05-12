@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    background-image: url("../img/background-image.png");
+    color: black !important;
+}
+h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+div.col-md-12{
+    margin-bottom: 1em;
+
+}
+input {
+    width: 11em !important;
+    margin-right: 1em !important;
+}
+input#issue_id, input#hours, input#activity_id {
+    width: 6em !important;
+}
+
+blockquote {
+    margin-left: 3em;
+}
+input[type="checkbox"]{
+    color: red;
+}
+
+.theme {
+    position: fixed;
+    top: 2em;
+    left :8em;
+}
+.theme img{
+    width:  3em;
+    height: 3em;
+}
+
+.black-theme{
+    background-color: black;
+    color: white !important;
+}
+
+.main-div {
+    box-shadow: 0 0 4px grey;
+    margin: 10px auto;
+    background-color: #ffffff73;
+}
+.black-main-div {
+    background-color: #00000073 !important;
+}
+
+input {
+    height: 2.5em;
+}
