@@ -2,5 +2,9 @@
     "name": "Redmine_time_logger_tool",
     "version": "0.1.3",
     "description": "This app lets the user logs time into a redmine server with it's username",
-    "dependencies": {    }
+    "dependencies": {
+        "mime-types": "^2.1.18",
+        "particles.js": "^2.0.0",
+        "request": "^2.85.0"
+    }
 }

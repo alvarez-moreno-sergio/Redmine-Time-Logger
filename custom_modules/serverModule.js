@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
-const mime = require("mime");
+const mime = require("mime-types");
 
 const redmineModule = require('./redmineModule');
 const config = require('../config');
