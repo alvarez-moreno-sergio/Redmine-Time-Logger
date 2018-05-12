@@ -1,6 +1,6 @@
 # Redmine-Time-Logger-Tool
- This is a beta version
- Use it under your own responsabilty
+This is a beta version.
+Use it under your own responsability.
 
 ## Description
 A small web-tool which allows user to log identical Time Entries to different days straight.
