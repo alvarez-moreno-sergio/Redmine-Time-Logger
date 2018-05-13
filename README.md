@@ -16,6 +16,7 @@ https://nodejs.org/es/download/
 - mime
 - querystring
 - request
+- particles.js {https://github.com/VincentGarreau/particles.js}
 
 ## Important
 This app includes in the root path a config.js file. This file contains definitions of some necessary user variables.
