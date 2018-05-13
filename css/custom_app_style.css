@@ -57,3 +57,8 @@ input[type="checkbox"]{
 input {
     height: 2.5em;
 }
+
+.right-bar-icons a {
+    display: block;
+    margin-bottom: 0.5em;
+}

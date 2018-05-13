@@ -11,37 +11,27 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
-function init(color){
-    let hexColor;
-    if (color === "#000"){
-        hexColor = "#000";
-    }
-    else if (color === "#fff") {
-        hexColor = "#fff";
-    }
-    else {
-        hexColor = "#150";
-    }
+function init(color = "#150", nParticles = 80){
 
     particlesJS('particles-js',
 
         {
             "particles": {
                 "number": {
-                    "value": 80,
+                    "value": nParticles,
                     "density": {
                         "enable": true,
                         "value_area": 800
                     }
                 },
                 "color": {
-                    "value": hexColor
+                    "value": color
                 },
                 "shape": {
                     "type": "circle",
                     "stroke": {
                         "width": 0,
-                        "color": hexColor
+                        "color": color
                     },
                     "polygon": {
                         "nb_sides": 5
@@ -75,7 +65,7 @@ function init(color){
                 "line_linked": {
                     "enable": true,
                     "distance": 150,
-                    "color": hexColor,
+                    "color": color,
                     "opacity": 0.4,
                     "width": 1
                 },
