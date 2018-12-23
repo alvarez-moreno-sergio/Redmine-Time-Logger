@@ -5,7 +5,7 @@ Use it under your own responsability.
 ## Description
 Fancy website which allows the user to log identical Time Entries to different days straight on Redmine.
 It can be used to ease the frustrating task of logging time into your redmine server. Can also be used for both personal and professional environments.
-Uses Redmine API Key to identificate the user against the Redime server. It can be generated from Redmine user's profile page.
+Uses Redmine API Key to identificate the user against the Redmine server. It can be generated from Redmine user's profile page.
 
 This application works on any environment in which node.js works. It just needs it to be installed:
 https://nodejs.org/es/download/
